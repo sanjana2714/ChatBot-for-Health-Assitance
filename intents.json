@@ -1,0 +1,375 @@
+[
+  {
+  "tag": "greetings",
+  "patterns": [
+      "Hi",
+      "Hello",
+      "Hey",
+      "Good morning",
+      "Good evening",
+      "How are you?",
+      "What's up?"
+  ],
+  "responses": [
+      "Hello! How can I assist with your health today?",
+      "Hi there! Need any health advice or information?",
+      "Hey! How can I help you stay healthy today?",
+      "Good day! What health concerns can I address for you?",
+      "Hi! Let's talk about your health and wellness."
+  ]
+},
+{
+  "tag": "symptom_check",
+  "patterns": [
+      "I have a headache",
+      "I'm feeling sick",
+      "I have a sore throat",
+      "My stomach hurts",
+      "I have a fever"
+  ],
+  "responses": [
+      "I'm sorry to hear that. Can you tell me more about your symptoms?",
+      "Let's take a closer look at your symptoms. Please describe them in detail.",
+      "I can help you understand your symptoms better. What are you experiencing?",
+      "It sounds uncomfortable. Let's see what might be causing these symptoms."
+  ]
+},
+{
+  "tag": "appointment_booking",
+  "patterns": [
+      "I need to book an appointment",
+      "Can I see a doctor?",
+      "I want to schedule a check-up",
+      "I need to see a specialist",
+      "Book an appointment for me"
+  ],
+  "responses": [
+      "Sure, I can help with that. Please provide your preferred date and time.",
+      "Let's get your appointment booked. When would you like to visit?",
+      "I can assist you with booking an appointment. What type of doctor do you need to see?",
+      "I'll help you schedule an appointment. Please share your availability."
+  ]
+},
+{
+  "tag": "health_tips",
+  "patterns": [
+      "Give me some health tips",
+      "How can I stay healthy?",
+      "Tips for a healthy lifestyle",
+      "Health advice",
+      "Wellness tips"
+  ],
+  "responses": [
+      "Sure! Regular exercise, a balanced diet, and adequate sleep are key to staying healthy.",
+      "Drinking plenty of water and managing stress are important for your overall health.",
+      "Remember to get regular check-ups and stay up-to-date with vaccinations.",
+      "Avoid smoking and excessive alcohol consumption to maintain good health."
+  ]
+},
+{
+  "tag": "medical_information",
+  "patterns": [
+      "Tell me about diabetes",
+      "What is hypertension?",
+      "Information on asthma",
+      "Symptoms of flu",
+      "What causes allergies?"
+  ],
+  "responses": [
+      "Diabetes is a chronic condition where the body can't properly regulate blood sugar levels.",
+      "Hypertension, or high blood pressure, can increase the risk of heart disease and stroke.",
+      "Asthma is a respiratory condition characterized by inflamed and narrowed airways.",
+      "Flu symptoms include fever, cough, sore throat, and body aches. Rest and hydration are crucial.",
+      "Allergies are caused by an overreaction of the immune system to certain substances."
+  ]
+},
+{
+  "tag": "mental_health_support",
+  "patterns": [
+      "I'm feeling anxious",
+      "I have been feeling down",
+      "I need mental health support",
+      "I'm stressed out",
+      "Can you help with depression?"
+  ],
+  "responses": [
+      "I'm sorry to hear that. It can be helpful to talk about what you're experiencing. Can you share more?",
+      "Mental health is important. Have you considered speaking to a professional? I can help find resources.",
+      "You're not alone. Let's talk through what you're feeling and find some support options.",
+      "Stress can be overwhelming. Let's explore some techniques to help manage it.",
+      "Depression is tough. Consider reaching out to a therapist or counselor for support. I can help locate one."
+  ]
+},
+{
+  "tag": "dietary_advice",
+  "patterns": [
+      "I need diet tips",
+      "How can I lose weight?",
+      "What is a balanced diet?",
+      "Healthy eating tips",
+      "Nutritional advice"
+  ],
+  "responses": [
+      "For a balanced diet, aim to include a variety of fruits, vegetables, whole grains, and lean proteins.",
+      "Losing weight is a combination of healthy eating and regular physical activity. I can share some tips.",
+      "Eating a mix of nutrients is crucial. Would you like guidance on creating a meal plan?",
+      "Healthy eating includes staying hydrated and limiting processed foods. Need more advice?",
+      "Nutritional advice can vary based on individual needs. Let's discuss your specific dietary goals."
+  ]
+},
+{
+  "tag": "medication_information",
+  "patterns": [
+      "Tell me about this medication",
+      "What are the side effects of this drug?",
+      "Can I take this with my other meds?",
+      "Medication dosage",
+      "Drug interactions"
+  ],
+  "responses": [
+      "It's important to know your medication. Would you like information on how to take it?",
+      "Understanding side effects can help manage your treatment. Do you have any specific concerns?",
+      "Always consult a doctor before combining medications. I can help you find relevant information.",
+      "Medication dosages should be followed as prescribed. Need help understanding your prescription?",
+      "Drug interactions can be serious. Let’s look up potential issues with your current medications."
+  ]
+},
+{
+  "tag": "emergency_guidance",
+  "patterns": [
+      "What should I do in an emergency?",
+      "How to perform CPR",
+      "Emergency first aid",
+      "Help, there's an accident",
+      "What to do in a medical crisis?"
+  ],
+  "responses": [
+      "In an emergency, it's crucial to stay calm. Call emergency services immediately.",
+      "CPR can save lives. Would you like me to guide you through the steps?",
+      "First aid knowledge is vital. I can provide tips for handling common emergencies.",
+      "In case of an accident, ensure the area is safe before assisting the injured person.",
+      "Medical crises require prompt action. Follow guidelines for handling specific situations."
+  ]
+},
+{
+  "tag": "sleep_hygiene",
+  "patterns": [
+      "How can I improve my sleep?",
+      "Tips for better sleep",
+      "What is sleep hygiene?",
+      "I'm having trouble sleeping",
+      "Sleep disorders advice"
+  ],
+  "responses": [
+      "Improving sleep often involves creating a bedtime routine and keeping a consistent schedule.",
+      "Better sleep can be achieved by reducing screen time before bed and maintaining a cool, dark environment.",
+      "Sleep hygiene includes habits and practices that promote quality sleep. Need detailed tips?",
+      "Trouble sleeping can be frustrating. Let's explore techniques to help you rest better.",
+      "If you suspect a sleep disorder, consulting a healthcare provider is important. Want to learn more?"
+  ]
+},
+{
+  "tag": "pregnancy_and_parenting",
+  "patterns": [
+      "I'm pregnant, what should I expect?",
+      "Pregnancy tips",
+      "Parenting advice",
+      "Childcare tips",
+      "What to expect during pregnancy"
+  ],
+  "responses": [
+      "Congratulations! Pregnancy is a unique journey. Would you like to know more about each trimester?",
+      "Staying healthy during pregnancy is crucial. Let's discuss nutrition, exercise, and prenatal care.",
+      "Parenting can be challenging. Are you looking for advice on newborn care or child development?",
+      "Childcare involves many aspects. I can provide tips on feeding, sleeping, and general well-being.",
+      "Expect physical and emotional changes during pregnancy. Would you like a detailed overview?"
+  ]
+},
+{
+  "tag": "chronic_conditions_management",
+  "patterns": [
+      "How to manage diabetes",
+      "Living with hypertension",
+      "Tips for managing arthritis",
+      "Chronic condition support",
+      "Long-term illness advice"
+  ],
+  "responses": [
+      "Managing diabetes involves monitoring blood sugar, medication, and lifestyle changes. Need tips?",
+      "Hypertension requires regular blood pressure checks and healthy habits. Would you like more info?",
+      "Arthritis management includes medication, physical therapy, and exercise. Let's discuss options.",
+      "Living with a chronic condition can be challenging. How can I assist with your specific needs?",
+      "Long-term illness requires ongoing care. Let's explore strategies for managing your condition."
+  ]
+},
+{
+  "tag": "vaccination_information",
+  "patterns": [
+      "Vaccine schedule",
+      "Information on vaccines",
+      "Do I need this vaccine?",
+      "Vaccination benefits",
+      "What vaccines are required?"
+  ],
+  "responses": [
+      "Vaccination schedules vary by age and location. Would you like to know the recommended schedule?",
+      "Vaccines are crucial for preventing diseases. Do you need information on specific vaccines?",
+      "Certain vaccines are essential depending on your health and travel plans. Let's discuss.",
+      "Vaccines offer protection against many diseases. Need details on the benefits of a particular vaccine?",
+      "Required vaccines depend on various factors. I can help you understand which ones you may need."
+  ]
+},
+{
+  "tag": "exercise_routines",
+  "patterns": [
+      "Workout plans",
+      "Exercise tips",
+      "Fitness routine",
+      "How to get fit",
+      "Exercise advice"
+  ],
+  "responses": [
+      "Creating a workout plan tailored to your goals is key. Would you like a sample routine?",
+      "Exercise tips include consistency, variety, and proper form. Need advice on starting?",
+      "A fitness routine can help you stay on track. Let's design a plan that fits your lifestyle.",
+      "Getting fit involves a combination of cardio, strength training, and flexibility exercises. Need tips?",
+      "Exercise advice can vary. Are you looking for specific workouts or general fitness guidance?"
+  ]
+},
+{
+  "tag": "elderly_care",
+  "patterns": [
+      "Caring for elderly parents",
+      "Elderly health tips",
+      "Senior care advice",
+      "Aging and wellness",
+      "Support for older adults"
+  ],
+  "responses": [
+      "Caring for elderly parents involves physical and emotional support. Need specific advice?",
+      "Health tips for seniors include regular check-ups and a healthy lifestyle. Want detailed tips?",
+      "Senior care can be challenging. Let's discuss how to provide the best support.",
+      "Aging well involves staying active and maintaining social connections. Need guidance?",
+      "Supporting older adults requires patience and understanding. How can I assist with your concerns?"
+  ]
+},
+{
+  "tag": "women's_health",
+  "patterns": [
+      "Women's health tips",
+      "Menstrual health",
+      "Reproductive health",
+      "Breast health advice",
+      "Women's wellness"
+  ],
+  "responses": [
+      "Women's health includes regular check-ups and preventive care. Need specific tips?",
+      "Menstrual health involves managing symptoms and understanding your cycle. Want more info?",
+      "Reproductive health is crucial for overall wellness. Let's discuss care and preventive measures.",
+      "Breast health includes self-exams and screenings. Need guidance on maintaining breast health?",
+      "Women's wellness involves a holistic approach. How can I support your health journey?"
+  ]
+},
+{
+  "tag": "mental_health_therapies",
+  "patterns": [
+      "Different types of therapy",
+      "Cognitive Behavioral Therapy",
+      "What is mindfulness?",
+      "Psychotherapy options",
+      "Therapy for anxiety"
+  ],
+  "responses": [
+      "There are various types of therapy, including Cognitive Behavioral Therapy (CBT), dialectical behavior therapy (DBT), and psychodynamic therapy. Would you like detailed info on any of these?",
+      "Cognitive Behavioral Therapy (CBT) focuses on changing negative thought patterns. Need an in-depth explanation?",
+      "Mindfulness involves being present and fully engaged in the moment. Interested in learning some techniques?",
+      "Psychotherapy options vary. Are you looking for individual, group, or family therapy?",
+      "Therapy for anxiety can include CBT, exposure therapy, and mindfulness. Want to know more?"
+  ]
+},
+{
+  "tag": "women's_health_conditions",
+  "patterns": [
+      "Endometriosis information",
+      "PCOS symptoms",
+      "Menopause tips",
+      "What is fibroids?",
+      "Women's health issues"
+  ],
+  "responses": [
+      "Endometriosis is a condition where tissue similar to the lining inside the uterus grows outside it. Would you like more details?",
+      "Polycystic Ovary Syndrome (PCOS) symptoms include irregular periods, excess hair growth, and acne. Need more info?",
+      "Menopause marks the end of menstrual cycles. Tips for managing symptoms include lifestyle changes and possibly hormone therapy. Want detailed advice?",
+      "Fibroids are noncancerous growths in the uterus. They can cause heavy bleeding and pain. Interested in learning about treatment options?",
+      "Women's health issues vary widely. Let’s discuss specific conditions you're concerned about."
+  ]
+},
+{
+  "tag": "skin_health",
+  "patterns": [
+      "Skin care tips",
+      "Dealing with acne",
+      "What causes eczema?",
+      "Skin cancer prevention",
+      "Healthy skin habits"
+  ],
+  "responses": [
+      "Skin care tips include regular cleansing, moisturizing, and using sunscreen. Need a detailed routine?",
+      "Acne can be managed with proper skin care and, in some cases, medication. Want specific advice?",
+      "Eczema causes include genetics, environmental factors, and stress. Would you like more information?",
+      "Skin cancer prevention includes using sunscreen, wearing protective clothing, and avoiding tanning beds. Need more tips?",
+      "Healthy skin habits involve a balanced diet, staying hydrated, and avoiding smoking. Want more guidance?"
+  ]
+},
+{
+  "tag": "allergies_and_asthma",
+  "patterns": [
+      "Managing allergies",
+      "Asthma treatment",
+      "What triggers allergies?",
+      "Allergy symptoms",
+      "Preventing asthma attacks"
+  ],
+  "responses": [
+      "Managing allergies involves avoiding triggers and possibly taking medications. Need specific strategies?",
+      "Asthma treatment can include inhalers, medications, and lifestyle changes. Interested in learning more?",
+      "Allergy triggers can include pollen, dust, pet dander, and certain foods. Want detailed information?",
+      "Allergy symptoms can range from sneezing and itching to more severe reactions. Need help identifying your symptoms?",
+      "Preventing asthma attacks involves avoiding triggers and following your treatment plan. Want more prevention tips?"
+  ]
+},
+{
+  "tag": "sexual_health",
+  "patterns": [
+      "Safe sex practices",
+      "STD prevention",
+      "Contraception options",
+      "Understanding sexual health",
+      "Sexual wellness tips"
+  ],
+  "responses": [
+      "Safe sex practices include using condoms and getting regular STD screenings. Need more advice?",
+      "STD prevention involves practicing safe sex and getting vaccinated where applicable. Want detailed information?",
+      "Contraception options range from hormonal methods to barrier methods and IUDs. Need help choosing?",
+      "Understanding sexual health is key to overall wellness. Would you like more detailed information?",
+      "Sexual wellness tips include open communication with partners and regular health check-ups. Interested in more tips?"
+  ]
+},
+{
+  "tag": "childhood_health",
+  "patterns": [
+      "Common childhood illnesses",
+      "Vaccination for children",
+      "Healthy eating for kids",
+      "Childhood obesity prevention",
+      "Supporting child's mental health"
+  ],
+  "responses": [
+      "Common childhood illnesses include colds, ear infections, and chickenpox. Need more details?",
+      "Vaccination for children is crucial for preventing diseases. Want the recommended vaccination schedule?",
+      "Healthy eating for kids includes a balanced diet with fruits, vegetables, and whole grains. Need more tips?",
+      "Preventing childhood obesity involves promoting physical activity and healthy eating habits. Need strategies?",
+      "Supporting a child's mental health involves creating a nurturing environment and addressing any issues early. Want more guidance?"
+  ]
+}
+]
